@@ -175,9 +175,11 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${PODS_ROOT}/../../yytestpod/Classes/DebugFramework.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/yytestpod/yytestpod.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${PODS_ROOT}/../../yytestpod/Classes/DebugFramework.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/yytestpod/yytestpod.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

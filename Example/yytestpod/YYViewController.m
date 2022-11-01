@@ -7,7 +7,7 @@
 //
 
 #import "YYViewController.h"
-
+#import <DebugFramework/TTDemo.h>
 @interface YYViewController ()
 
 @end
