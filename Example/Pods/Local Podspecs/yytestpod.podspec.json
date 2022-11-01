@@ -1,0 +1,22 @@
+{
+  "name": "yytestpod",
+  "version": "0.1.0",
+  "summary": "A short description of yytestpod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hxxyyangyong/yytestpod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hxxyyangyong": "warrior279@126.com"
+  },
+  "source": {
+    "git": "https://github.com/hxxyyangyong/yytestpod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "yytestpod/Classes/**/*"
+}

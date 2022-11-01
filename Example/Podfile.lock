@@ -1,0 +1,16 @@
+PODS:
+  - yytestpod (0.1.0)
+
+DEPENDENCIES:
+  - yytestpod (from `../`)
+
+EXTERNAL SOURCES:
+  yytestpod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  yytestpod: ec14e45ab647f3e3804ab56a3640d214d3b28f13
+
+PODFILE CHECKSUM: f05579badd128bf8383accd1553b244b680235c3
+
+COCOAPODS: 1.10.1
