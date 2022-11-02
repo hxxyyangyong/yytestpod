@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'yytestpod'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'A short description of yytestpod.'
 
 # This description is used to generate tags and improve search results.
@@ -30,8 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '11.0'
 
-  #s.source_files = 'yytestpod/Classes/**/*'
+  s.source_files = 'yytestpod/Classes/library/include/DebugLibrary/*.h'
   s.vendored_frameworks = ['yytestpod/Classes/DebugFramework.framework']
+  s.vendored_libraries = ['yytestpod/Classes/library/libDebugLibrary.a']
   
   # s.resource_bundles = {
   #   'yytestpod' => ['yytestpod/Assets/*.png']
