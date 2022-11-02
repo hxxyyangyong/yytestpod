@@ -1,5 +1,5 @@
 PODS:
-  - yytestpod (0.1.2)
+  - yytestpod (0.1.4)
 
 DEPENDENCIES:
   - yytestpod (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  yytestpod: e34fbfcacbf6a2937102358a3e7dde5467f8bd11
+  yytestpod: 43064f079f9b9815d71e942851b014a3839651f1
 
 PODFILE CHECKSUM: 476263d3a22bf23e12830f301663137d001bd71f
 

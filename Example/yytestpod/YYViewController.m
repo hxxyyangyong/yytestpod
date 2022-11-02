@@ -8,6 +8,8 @@
 
 #import "YYViewController.h"
 #import <DebugFramework/TTDemo.h>
+#import <DebugFramework/TTDemo+kmm.h>
+#import <DebugFramework/NSString+kmm.h>
 @interface YYViewController ()
 
 @end
@@ -17,6 +19,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    NSString *str1 = [TTDemo callTTDemoCategoryMethod];
+    NSLog(@"%@",str1);
+    
+    NSString *str2 = [TTDemo callNSStrigCategoryMethod];
+    NSLog(@"%@",str2);
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

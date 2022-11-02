@@ -1,6 +1,6 @@
 {
   "name": "yytestpod",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "summary": "A short description of yytestpod.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/hxxyyangyong/yytestpod",
@@ -13,19 +13,13 @@
   },
   "source": {
     "git": "https://github.com/hxxyyangyong/yytestpod.git",
-    "tag": "0.1.2"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "11.0"
   },
-  "source_files": "yytestpod/Classes/**/*",
   "vendored_frameworks": [
     "yytestpod/Classes/DebugFramework.framework"
-  ],
-  "public_header_files": "yytestpod/Classes/DebugFramework.framework/*.h",
-  "frameworks": [
-    "Foundation",
-    "UIKit"
   ],
   "user_target_xcconfig": {
     "GENERATE_INFOPLIST_FILE": "YES"

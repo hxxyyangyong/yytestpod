@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface TTDemo : NSObject
 
 - (NSString *)showText;
++ (NSString *)callTTDemoCategoryMethod;
++ (NSString *)callNSStrigCategoryMethod;
 @end
 
 NS_ASSUME_NONNULL_END

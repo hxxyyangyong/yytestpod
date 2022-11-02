@@ -8,9 +8,17 @@
 		<data>
 		kvy2/o5eZ/utvjg6SmEIdvWYyOk=
 		</data>
+		<key>Headers/NSString+kmm.h</key>
+		<data>
+		gJfbGb76PUv90Uiy34Kk1Q1ge44=
+		</data>
+		<key>Headers/TTDemo+kmm.h</key>
+		<data>
+		9l8cyOI4hoHSkLM66yqWEEFxboc=
+		</data>
 		<key>Headers/TTDemo.h</key>
 		<data>
-		jzJdwma07IF1gkqAom5ldqpLCYQ=
+		DoX3KDlPTMC8g6eqMAPRiaK2q5w=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -30,11 +38,25 @@
 			buZrZVb4lKdGce5Kspy/0uXg70CTcMfFk4CUxLi0YEg=
 			</data>
 		</dict>
+		<key>Headers/NSString+kmm.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vh0cPNyNCplV8g3jLBxeUJrn4kKulkwlh2vz4O+UmLo=
+			</data>
+		</dict>
+		<key>Headers/TTDemo+kmm.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			g4PLa0eLVxMHAmrnW/ADwrgf0psx/lHf9aNPUzSi7I8=
+			</data>
+		</dict>
 		<key>Headers/TTDemo.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pb5DY+aKDD8S4hzyiUyBKuOIoFt6cwzSThc7PEpVbbI=
+			IIvIQrsrDVaGYGYfEZg44Hyzg79tOrU1dTCv47m8ZZw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
