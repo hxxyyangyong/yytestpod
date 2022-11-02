@@ -18,8 +18,12 @@
   "platforms": {
     "ios": "11.0"
   },
+  "source_files": "yytestpod/Classes/library/include/DebugLibrary/*.h",
   "vendored_frameworks": [
     "yytestpod/Classes/DebugFramework.framework"
+  ],
+  "vendored_libraries": [
+    "yytestpod/Classes/library/libDebugLibrary.a"
   ],
   "user_target_xcconfig": {
     "GENERATE_INFOPLIST_FILE": "YES"

@@ -10,6 +10,7 @@
 #import <DebugFramework/TTDemo.h>
 #import <DebugFramework/TTDemo+kmm.h>
 #import <DebugFramework/NSString+kmm.h>
+#import <yytestpod/DebugLibrary.h>
 @interface YYViewController ()
 
 @end
@@ -26,6 +27,9 @@
     NSString *str2 = [TTDemo callNSStrigCategoryMethod];
     NSLog(@"%@",str2);
     
+    
+    NSString *str3 = [DebugLibrary debugCategoryMethod];
+    NSLog(@"%@",str3);
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
