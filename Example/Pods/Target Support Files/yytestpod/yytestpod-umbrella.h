@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "DebugFramework.h"
+#import "TTDemo.h"
 
 FOUNDATION_EXPORT double yytestpodVersionNumber;
 FOUNDATION_EXPORT const unsigned char yytestpodVersionString[];
