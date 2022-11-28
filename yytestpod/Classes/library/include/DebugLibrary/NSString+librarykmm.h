@@ -11,6 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSString (librarykmm)
 + (NSString *)libraryStringCategory;
++ (NSString *)callSwiftStringCategory;
 @end
 
 NS_ASSUME_NONNULL_END
