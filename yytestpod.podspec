@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.swift_version = "5.0"
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'yytestpod/Classes/library/include/DebugLibrary/*.h,yytestpod/Classes/library/include/DebugLibrary/*.swift'
+  s.source_files = "yytestpod/Classes/library/include/DebugLibrary/*.h","yytestpod/Classes/library/include/DebugLibrary/*.swift"
   s.vendored_frameworks = ['yytestpod/Classes/DebugFramework.framework']
   s.vendored_libraries = ['yytestpod/Classes/library/libDebugLibrary.a']
   
